@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right, #1f7b00, #000000);
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+}
+
+}
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: greenyellow;
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+
+}
+
+p, h1 {
+    animation: fadeIn 1s ease-in;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    border-radius: 10px;
+}
